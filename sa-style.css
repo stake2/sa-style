@@ -10,7 +10,7 @@
 ==/UserStyle== */
 
 @-moz-document regexp("https?://www\\.(superanimes|supermangas|superhentais)\\.(org|com|site).*") {
-    .rows_list,
+.rows_list,
     .ajax_box .ajax_title .close-icon,
     .friend_sms_list,
     .actionMenuUser,
@@ -53,7 +53,8 @@
     .select,
     .delNotify,
     .js_close_alert,
-    .buttonLink {
+    .buttonLink,
+    .viewMoreLink{
         animation: animatebrighter1 0.3s;
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
@@ -102,7 +103,8 @@
     .select:hover select,
     .delNotify:hover,
     .js_close_alert:hover,
-    .buttonLink:hover {
+    .buttonLink:hover,
+    .viewMoreLink:hover {
         animation: animatebrighter2 0.3s;
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
